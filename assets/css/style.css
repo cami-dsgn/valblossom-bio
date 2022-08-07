@@ -1,0 +1,122 @@
+/* Author: Jaicke Santos */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'Calming';
+  src: url(../fonts/Calming.otf);
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url(../fonts/Montserrat-VariableFont_wght.ttf);
+}
+
+body {
+  height: 100vh;
+  background-color: #FAF5F2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.bg-top img {
+  width: 140px;
+  position: absolute;
+  top: -30px;
+  left: -9px;
+}
+
+.bg-bottom img {
+  width: 140px;
+  position: absolute;
+  bottom: -8px;
+  right: -20px;
+}
+
+section#links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Montserrat;
+}
+
+section#links a {
+  color: #FAF5F2;
+  text-align: center;
+}
+
+.btn {
+  background-color: #ACAE89;
+  font-size: 20px;
+  width: 320px;
+  padding: 15px 9px;
+  margin-bottom: 15px;
+  margin-bottom: 15px;
+  border-radius: 8px 8px;
+}
+
+.btn:first-child {
+  margin-top: 60px;
+}
+
+section#logo {
+  /* margin-top: 20%; */
+  display: flex;
+  justify-content: center;
+}
+
+section#logo img {
+  height: auto;
+  width: 35%;
+}
+
+section#phrase {
+  padding: 40px;
+  font-family: Calming;
+  font-size: 25px;
+  color: #A25F32;
+}
+
+footer {
+  color: #A25F32;
+  font-size: 13px;
+}
+
+a {
+  text-decoration: none;
+  color: #A25F32;
+}
+
+/* Media Query */
+
+@media (max-width: 720px)
+{
+
+  section#logo img{
+    width: 60%;
+  }
+
+  .bg-top img{
+    width: 75px;
+    left: -5px;
+    top: -20px;
+  }
+
+  .bg-bottom img{
+    width: 75px;
+    right: -10px;
+    bottom: -45px;
+  }
+
+  section#phrase {
+    padding: 20px 51px;
+    font-size: 20px;
+    text-align: center;
+  }
+}
