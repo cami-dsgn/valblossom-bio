@@ -65,7 +65,6 @@ section#links a {
 }
 
 section#logo {
-  /* margin-top: 20%; */
   display: flex;
   justify-content: center;
 }
