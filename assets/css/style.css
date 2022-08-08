@@ -101,7 +101,8 @@ a {
   }
 
   .btn {
-    width: 65%;
+    width: 77%;
+    font-size: 17px;
   }
 
   .bg-top img{
@@ -112,7 +113,7 @@ a {
 
   .bg-bottom img{
     width: 75px;
-    right: -10px;
+    right: 0;
     bottom: -45px;
   }
 
